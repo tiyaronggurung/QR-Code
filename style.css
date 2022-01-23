@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#qrInput{
+    
+    margin-top: 10px;
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    
+}
+
+.title{
+    /* align-items: center; */
+    margin: 5px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: purple;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#qr-data{
+    width: 240px;
+    height: 35px;
+    box-shadow: 4px 4px black;
+    
+}
+
+#qrcode{
+    margin-top: 20px;
+    
+}
+
+.main-box{
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    background: red;
+}
+#btn{
+    width: 60px;
+    height: 35px;
+    margin: 5px 10px;
+
+}
+
+.container{
+    display: flex;
+}
+
